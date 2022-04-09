@@ -1,0 +1,10 @@
+{
+  "name": "algorithms-learn",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "sanyaches",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
