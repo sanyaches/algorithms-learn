@@ -1,4 +1,5 @@
 import './algorithms/recursive-sum.js'
+import './algorithms/selection-sort.js'
 
 const binarySearch = (list, item) => {
   let low = 0, high = list.length - 1
