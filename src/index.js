@@ -1,3 +1,5 @@
+import './algorithms/recursive-sum.js'
+
 const binarySearch = (list, item) => {
   let low = 0, high = list.length - 1
 
@@ -22,4 +24,4 @@ const binarySearch = (list, item) => {
   return null
 }
 
-console.log(binarySearch([1,2,5,6,9,12], 1))
+console.log(`Binary search [1,2,5,6,9,12], search 1: `, binarySearch([1,2,5,6,9,12], 1))
